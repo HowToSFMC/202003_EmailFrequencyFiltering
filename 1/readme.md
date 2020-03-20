@@ -1,9 +1,3 @@
-
-Ever had the request to limit the total sends to a subscriber per day? How would you go about resolving that? Well, we want your thoughts, ideas, strategies and configuration methods! For March, we will be jumping into the world of frequency segmentation. Frequency Segmentation is the act of separating your audience into different groups based on the amount of times you have sent an email or other message type to them. The main goal of this task is to find a reliable and scalable way to introduce and execute Frequency Segmentation. Whether your solution filters at a per subscriber level or other specific criteria, we want it all.
-
-
-Solution
-
   
 1.  Create a Profile attribute on Subscriber level to capture the number of max email sends per day for a subscriber (call it MaxDailyEmailSendCnt) – keep it as hidden as this is for internal tracking only. You can configure it as numeric with max 3 digits and a default value – for e.g. “1” if you wish to restrict this to a single email per subscriber email id daily.
     
